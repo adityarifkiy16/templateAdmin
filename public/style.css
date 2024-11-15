@@ -1,0 +1,27 @@
+/* Change hover color for nav-link */
+.nav-link:hover {
+    background-color: #007bff !important;
+    color: white !important; /* Optional: change text color on hover */
+}
+
+/* Ensure icons are also colored on hover */
+.nav-link:hover .nav-icon {
+    color: white;
+}
+
+/* Style for expanded dropdown */
+.nav-item.has-treeview.menu-open > .nav-link {
+    background-color: #0056b3; /* Same as active link color */
+    color: white;
+}
+
+/* Ensure icons are also styled in active or expanded state */
+.nav-link.active .nav-icon, 
+.nav-item.has-treeview.menu-open > .nav-link .nav-icon {
+    color: white;
+}
+
+/* Ensures the search filter container is centered vertically */
+#example2_filter label{
+ margin-bottom: 0 !important;
+}
